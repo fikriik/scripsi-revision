@@ -686,7 +686,16 @@ textarea::-ms-input-placeholder{
 
 /*End off pridifain css*/
 
+.title {
+    font-size: 20px;
+    font-weight: 600;
+}
 
+.price {
+    color: #FF0000;
+    font-weight: 600;
+    font-family: 'Space Grotesk', sans-serif;
+}
 
 /*Preloader*/
 #loading{
@@ -947,6 +956,10 @@ Home Section style
 Featured section style
 ========================*/
 
+.features{
+    background-color: #d52c1f
+}
+
 .features_item .f_item_icon{
     float: left;
     width:15%;
@@ -955,7 +968,7 @@ Featured section style
 }
 .features_item .f_item_icon i{
     font-size:4rem;
-    color:#00a885;
+    color:#fff;
 }
 .features_item .f_item_text{
     display: inline-block;
@@ -963,6 +976,11 @@ Featured section style
 }
 .features_item .f_item_text p{
     font-size:14px;
+    color: white
+}
+
+.heading-3{
+    color: white
 }
 
 /*Business Section*/
@@ -1101,6 +1119,7 @@ work Section style
 
 .main_product .port_img img{
     width:100%;
+    border-radius: 10px
 }
 .main_product .port_overlay{
     width:100%;
