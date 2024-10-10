@@ -393,7 +393,7 @@ Button
     color: #fff;
     background-color: transparent;
     border:1px solid;
-    border-color: #b6b6b6;
+    border-color: #fff;
 }
 .btn-default:hover{
     color: #fff;
@@ -695,6 +695,8 @@ textarea::-ms-input-placeholder{
     color: #FF0000;
     font-weight: 600;
     font-family: 'Space Grotesk', sans-serif;
+    padding: 5px;
+    border-radius: 10px
 }
 
 /*Preloader*/
