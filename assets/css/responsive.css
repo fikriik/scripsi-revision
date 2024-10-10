@@ -52,7 +52,30 @@ Author URI: http://www.xpeedstudio.com
         right:0%;
     }
 
+    .footer-1{
+    padding: 40px;
+    width: 100%;
+    margin: auto;
+    }
 
+    .grid-footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        width: 100%
+    }
+
+    .footer-sosmed {
+        padding: 30px;
+        width: 100%;
+        margin: auto
+    }
+
+    .footer-sosmed-1{
+        display: flex;
+        align-item: center;
+        justify-content: Space-between
+    }
 
 }
 
